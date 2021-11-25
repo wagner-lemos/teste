@@ -1,0 +1,78 @@
+div.calendario {
+	width: 212px;
+	position: absolute;
+	background: #ffffff;
+	border-radius: 0 0 5px 5px;
+	border: 1px solid #fe9d4b;
+	display: none;
+}
+
+div.calendario a.fechar {
+	display: block;
+	position: absolute;
+	top: -21px;
+	right: 0;
+	padding: 3px 8px;
+	text-decoration: none;
+	background: #fe9d4b;
+	text-align: center;
+	color: #000000;
+	font: bold 12px Tahoma;
+}
+
+div.calendario a.bt_controle_mes {
+	display: block;
+	padding: 2px 5px;
+	position: absolute;
+	top: 0px;
+	text-decoration: none;
+	color:#222;
+}
+
+div.calendario a.bt_voltar_mes { left: 2px; }
+div.calendario a.bt_avancar_mes { right: 2px; }
+
+div.calendario p.nome_mes {
+	text-align: center;
+	display: block;
+	padding: 4px 0;
+	background: #efeff0;
+	font-size: 13px;
+	color: #666666;
+	margin: 0;
+}
+
+div.calendario ul {
+	margin:0;
+	padding:0;
+}
+div.calendario ul li {
+	display: block;
+	float: left;
+	width: 30px;
+	padding: 5px 0;
+	text-align: center;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+div.calendario ul li a { font-weight: bold; color:#6d6d6d; text-decoration:none; }
+div.calendario ul li a:hover { text-decoration: underline; }
+
+div.calendario ul li.semana {
+	background: #c0c7ca;
+	font-weight: bold;		
+	color: #fff;
+}
+
+div.calendario ul li.dia {
+	color: #999;
+}
+
+div.calendario ul li.default {	
+	background: #eeeeee;
+	color: #fe9d4b; 
+	font-weight: bold;
+}
+
+div.calendario ul li.default a { color: #fe9d4b; }

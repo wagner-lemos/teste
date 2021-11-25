@@ -1,0 +1,86 @@
+#principal{color: #444444; position: relative; width: 100%; height: 100%;}
+	#principal h2{margin-bottom: 20px; font-family: "Trebuchet MS"; color: #222222;}
+
+#cards{margin-top: 30px;}
+	#cards li{display: inline-block; width: calc(33% - 10px); min-width: 200px; margin: 0 4px 12px; padding: 20px 15px; font-family: "Trebuchet MS";}
+	#cards li div{font-size: 18px; color: #fff; margin-bottom: 8px;}
+	#cards li p{float: left; font-size: 30px; color: #222222; font-weight: bold;}
+	#cards li p span{font-size: 16px; color: #222222; font-weight: normal;}
+	#cards li a{display: block; float: right; margin-top: 15px; font-size: 15px; color: #fff; text-decoration: none; cursor: pointer;}
+	
+	#cards li:nth-child(1){background: #e46050; border-left: 6px solid #c83b2a}
+	#cards li:nth-child(2){background: #f4ab43; border-left: 6px solid #cb8623}
+	#cards li:nth-child(3){background: #83c569; border-left: 6px solid #64ad47}
+	#cards li:nth-child(4){background: #83c569; border-left: 6px solid #64ad47}
+
+.breadcrumbs{margin-bottom: 20px; font-family: "Trebuchet MS"; font-size: 18px; color: #222222;}
+
+.notification{margin-bottom: 25px; padding: 12px; background: #d5ffce; border: 1px solid #9adf8f; font-size: 14px; color: #556652;}
+	.notification .close{cursor: pointer; margin-right: 8px;}
+
+.errors{margin-bottom: 25px; padding: 5px 12px; background: #fec9c9; border: 1px solid #cc7474; font-size: 14px; color: #556652;}
+	.errors ul li{margin: 6px 0; color: #222222;}
+
+.pesquisa{margin-bottom: 22px; float: left;}
+	.pesquisa .campo{border: 1px solid #cccccc; width: 300px; font-size: 14px; color: #666666; padding: 9px 10px; border-radius: 4px;}
+	.pesquisa .select{width: 120px; padding: 8px 10px; margin-right: 2px;}
+	.pesquisa .btSearch{border-radius: 4px; background: #21759b; padding: 8px 10px; border: none; cursor: pointer; color: #FFFFFF; font-size: 15px;}
+	
+.add_categoria{margin-bottom: 22px; float: left;}
+	.add_categoria .campo{border: 1px solid #cccccc; width: 300px; font-size: 14px; color: #666666; padding: 9px 10px;}
+	.add_categoria .btCategoria{border-radius: 4px; background: #21759b; padding: 8px 10px; border: none; cursor: pointer; color: #FFFFFF; font-size: 15px;}
+
+.bt_add{margin-bottom: 22px; float: right;}
+	.bt_add a{display: block; text-decoration: none; border-radius: 4px; background: #21759b; padding: 10px 16px; cursor: pointer; color: #FFFFFF; font-size: 14px; float: left; margin-left: 5px;}
+
+.bt_cadastro{border-radius: 4px; background: #21759b; padding: 10px 25px; cursor: pointer; color: #FFFFFF; font-size: 14px;}
+
+.upload{font-size: 16px; color: #21759b;}
+.excluir{font-size: 16px; color: #d92424; margin-left: 3px;}
+.editar{font-size: 16px; color: #21759b; margin: 0 3px;}
+.check{font-size: 16px; margin-right: 3px;}
+.on{color: #01be70;}
+.off{color: #d92424;}
+
+.grade table .linhaTitulo{background:#DDE8E8; font-weight: bold;}
+	.grade table .linhaTitulo td{font-size: 14px; padding: 10px 8px;}
+	.grade table .linhaTitulo td:last-child{padding: 0 20px;}
+	.grade table tr	td{font-size: 14px; padding: 10px 8px;}
+
+	.pagination{list-style:none; margin-top: 10px; text-align:center}
+	.pagination li{display: inline-block; margin: 0 1px; text-align:center;}
+	.pagination li a{display: block; padding: 4px 10px 2px; border: 1px solid #cccccc; text-decoration: none; color: #444444;}
+	.pagination li a:hover{background: #e5e5e5;}
+
+.bt_all{font-size: 20px; background: none; color: #d92424; cursor: pointer; margin: 10px 0 0 10px;}
+.sem-dados{text-align: center; margin: 70px 0 60px; font-size: 14px;}
+
+#btExportar{display: block; float: right; border-radius: 3px; background: #21759b; padding: 10px 0; cursor: pointer; color: #FFFFFF; text-decoration: none; font-size: 12px; width: 150px; text-align: center;}
+
+.legenda{float: left; font-size: 17px; color: #21759b; margin: 0 10px 1px 4px; cursor: pointer;}
+.txtLegenda{float: left;display: block; height: auto; width: 80%; color: #555555;}
+
+.cTitulo{width: 100%; font-size: 14px; padding: 6px; border-radius: 3px; border: 1px solid #cccccc;}
+.cTexto{width: 100%; resize:none; margin: 5px 0; font-size: 14px; padding: 4px; border-radius: 3px; border: 1px solid #cccccc;}
+.cButton{width: 100px; background: #f5f5f5; padding: 6px 0 4px; border: 1px solid #cccccc; border-radius: 3px; margin: 0 2px; cursor: pointer; font-size: 12px; color: #666666;}
+
+.txtCategorias{display: block; width: 100%; min-width: 432px; color: #555555;}
+.txtCategorias .cTitulo{width: 50%;}
+.txtCategorias .cButton{width: 100px; padding: 6px 0; font-size: 13px;}
+
+
+.btUpload{display: block; width: 180px; border-radius: 4px; background: #21759b; padding: 12px 0; cursor: pointer; color: #FFFFFF; font-size: 12px; text-decoration: none; text-align: center; margin-bottom: 20px;}
+
+
+/* ================ Demais formularios ================ */
+
+.form-table{font-size: 15px;}
+	.form-table .campoA{border-radius: 4px; width: 100%; margin: 4px 0 10px; padding: 12px; border: 1px solid #cccccc; font-size: 15px; color: #666666;}
+
+.form{font-size: 15px;}
+	.form ul li{display: inline-block; width: calc(50% - 14px); margin: 0 5px 15px;}
+	.form .campoA{border-radius: 4px; width: 100%; margin-top: 5px; padding: 12px; border: 1px solid #cccccc; font-size: 15px; color: #666666;}
+	.form .row{width: calc(100% - 14px);}
+	.form .bt{margin: 5px 5px 0;}
+
+.bloco{background: #ffffff; padding: 24px 17px; clear: both; margin-bottom: 20px; border-radius: 0px; box-shadow: #bbbbbb 0px 1px 5px; border-top: 3px solid #21759b;}

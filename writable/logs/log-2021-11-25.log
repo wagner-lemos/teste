@@ -1,0 +1,110 @@
+CRITICAL - 2021-11-25 07:06:20 --> Undefined variable: categoria
+#0 C:\Users\acer\Desktop\www\teste\app\Views\comunicacao\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\acer\\D...', 55, Array)
+#1 C:\Users\acer\Desktop\www\teste\system\View\View.php(214): include('C:\\Users\\acer\\D...')
+#2 C:\Users\acer\Desktop\www\teste\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\acer\Desktop\www\teste\system\Common.php(1097): CodeIgniter\View\View->render('comunicacao/ind...', Array, true)
+#4 C:\Users\acer\Desktop\www\teste\app\Controllers\Comunicacao.php(46): view('comunicacao/ind...', Array)
+#5 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(824): app\controllers\Comunicacao->index()
+#6 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(app\controllers\Comunicacao))
+#7 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-25 07:23:44 --> Table 'teste.categorias' doesn't exist
+CRITICAL - 2021-11-25 07:23:44 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Desktop\www\teste\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\acer\Desktop\www\teste\app\Models\CategoriasModel.php(69): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\acer\Desktop\www\teste\app\Controllers\Comunicacao.php(117): app\models\CategoriasModel->listar('comunicacao')
+#3 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(824): app\controllers\Comunicacao->editar('1')
+#4 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(app\controllers\Comunicacao))
+#5 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-11-25 07:23:53 --> Table 'teste.categorias' doesn't exist
+CRITICAL - 2021-11-25 07:23:53 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Desktop\www\teste\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\acer\Desktop\www\teste\app\Models\CategoriasModel.php(69): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\acer\Desktop\www\teste\app\Controllers\Comunicacao.php(117): app\models\CategoriasModel->listar('comunicacao')
+#3 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(824): app\controllers\Comunicacao->editar('1')
+#4 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(app\controllers\Comunicacao))
+#5 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-11-25 07:24:41 --> Table 'teste.categorias' doesn't exist
+CRITICAL - 2021-11-25 07:24:41 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Desktop\www\teste\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\acer\Desktop\www\teste\app\Models\CategoriasModel.php(69): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\acer\Desktop\www\teste\app\Controllers\Comunicacao.php(117): app\models\CategoriasModel->listar('comunicacao')
+#3 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(824): app\controllers\Comunicacao->editar('1')
+#4 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(app\controllers\Comunicacao))
+#5 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-11-25 07:27:16 --> Table 'teste.categorias' doesn't exist
+CRITICAL - 2021-11-25 07:27:16 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Desktop\www\teste\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\acer\Desktop\www\teste\app\Models\CategoriasModel.php(69): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\acer\Desktop\www\teste\app\Controllers\Comunicacao.php(117): app\models\CategoriasModel->listar('comunicacao')
+#3 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(824): app\controllers\Comunicacao->editar('1')
+#4 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(app\controllers\Comunicacao))
+#5 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-11-25 07:28:20 --> Table 'teste.categorias' doesn't exist
+ERROR - 2021-11-25 07:28:20 --> Table 'teste.categorias' doesn't exist
+CRITICAL - 2021-11-25 07:28:20 --> Call to a member function getResult() on bool
+#0 C:\Users\acer\Desktop\www\teste\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(50, 0)
+#1 C:\Users\acer\Desktop\www\teste\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(50, 0)
+#2 C:\Users\acer\Desktop\www\teste\app\Models\ComunicacaoModel.php(83): CodeIgniter\BaseModel->paginate(50)
+#3 C:\Users\acer\Desktop\www\teste\app\Controllers\Comunicacao.php(43): app\models\ComunicacaoModel->search(Array)
+#4 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(824): app\controllers\Comunicacao->index()
+#5 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(app\controllers\Comunicacao))
+#6 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 07:37:48 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\Users\acer\Desktop\www\teste\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\acer\\D...')
+#1 C:\Users\acer\Desktop\www\teste\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comu...')
+#3 C:\Users\acer\Desktop\www\teste\app\Controllers\Comunicacao.php(16): spl_autoload_call('App\\Models\\Comu...')
+#4 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(801): app\controllers\Comunicacao->__construct()
+#5 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 08:00:01 --> syntax error, unexpected '$erro' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\acer\Desktop\www\teste\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/usuarios/perfi...')
+#1 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/usuarios/perfi...')
+#2 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 08:08:49 --> syntax error, unexpected '>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(705): require()
+#1 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-25 08:28:59 --> Class 'App\Models\ClientesModel' not found
+#0 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(801): app\controllers\Clientes->__construct()
+#1 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-25 08:30:09 --> Class 'App\Models\ClientesModel' not found
+#0 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(801): app\controllers\Clientes->__construct()
+#1 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-25 08:30:20 --> Class 'App\Models\ClientesModel' not found
+#0 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(801): app\controllers\Clientes->__construct()
+#1 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-25 08:30:42 --> Class 'App\Models\ClientesModel' not found
+#0 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(801): app\controllers\Clientes->__construct()
+#1 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\acer\Desktop\www\teste\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\acer\Desktop\www\teste\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

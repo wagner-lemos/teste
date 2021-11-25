@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{padding: 0px; margin: 0px; list-style: none; border: 0px; -o-box-sizing: border-box; -ms-box-sizing: border-box; -moz-box-sizing: border-box; -khtml-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-user-modify: read-only; outline: none; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+
+.container{margin: 30px auto;}
+
+.fileinput-button {position: relative; overflow: hidden; display: inline-block; border-radius: 3px; background: #21759b; font-size: 14px; padding: 8px 15px; cursor: pointer; font-family: Arial; color: #FFFFFF;}
+.fileinput-button:hover{background: #165b7a;}
+
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px !important;
+  direction: ltr;
+  cursor: pointer;
+}
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+  .fileinput-button input {
+    filter: alpha(opacity=0);
+    font-size: 100%;
+    height: 100%;
+  }
+}
+
+.files{padding: 0 2px; margin: 0 2px; font-family: arial; color: #444444; font-size: 14px; letter-spacing: -0.5px; border-bottom: 1px solid #dddddd; }
+
+
+
+
+
+

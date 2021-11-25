@@ -1,0 +1,11 @@
+CRITICAL - 2021-11-08 08:58:43 --> Use of undefined constant CI_VERSION - assumed 'CI_VERSION' (this will throw an Error in a future version of PHP)
+#0 C:\Users\acer\Desktop\www\gerente\app\Views\site\home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\acer\\D...', 24, Array)
+#1 C:\Users\acer\Desktop\www\gerente\system\View\View.php(214): include('C:\\Users\\acer\\D...')
+#2 C:\Users\acer\Desktop\www\gerente\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\acer\Desktop\www\gerente\system\Common.php(1092): CodeIgniter\View\View->render('site/home', Array, true)
+#4 C:\Users\acer\Desktop\www\gerente\app\Controllers\Site.php(25): view('site/home', Array)
+#5 C:\Users\acer\Desktop\www\gerente\system\CodeIgniter.php(802): app\controllers\Site->home()
+#6 C:\Users\acer\Desktop\www\gerente\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(app\controllers\Site))
+#7 C:\Users\acer\Desktop\www\gerente\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\acer\Desktop\www\gerente\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
