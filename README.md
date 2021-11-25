@@ -12,4 +12,6 @@ database.default.password = 123456 <br>
 # Apontar o hots
 app.baseURL = 'http://localhost/teste'
 
-
+Dados de acesso da aplicacao
+Login: webmaster
+Senha: 12345
